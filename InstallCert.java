@@ -1,4 +1,3 @@
-package com.aw.ad.util;
 /*
  * Copyright 2006 Sun Microsystems, Inc.  All Rights Reserved.
  *
