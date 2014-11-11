@@ -1,3 +1,4 @@
+package com.aw.ad.util;
 /*
  * Copyright 2006 Sun Microsystems, Inc.  All Rights Reserved.
  *
@@ -178,7 +179,7 @@ public class InstallCert {
         }
 
         public X509Certificate[] getAcceptedIssuers() {
-            throw new UnsupportedOperationException();
+            return new X509Certificate[0];
         }
 
         public void checkClientTrusted(X509Certificate[] chain, String authType)
